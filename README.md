@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Portfolio de John Doe - Développeur Web React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce dépôt contient le code source du portfolio de John Doe, un développeur web passionné et autodidacte, réalisé dans le cadre de sa formation au Centre Européen de Formation. Le site a pour objectif de présenter ses compétences et ses réalisations pour faciliter sa recherche d'emploi et d'alternance.
 
-## Available Scripts
+## 🚀 Fonctionnalités principales
 
-In the project directory, you can run:
+* **Page d'Accueil (Accueil)** : Section "Hero" avec image de fond, présentation de John Doe, et liste de ses compétences (barres de progression Bootstrap). Un bouton "En savoir plus" ouvre une modale affichant les informations du profil GitHub de John Doe, récupérées via l'API GitHub.
+* **Page Services** : Présentation des offres de services de John Doe sous forme de Cards Bootstrap avec effets de survol.
+* **Page Réalisations (Portfolio)** : Portfolio avec un minimum de 6 projets présentés sous forme de Cards Bootstrap avec effets de survol et liens cliquables.
+* **Page Contact** : Formulaire de contact complet et coordonnées de John Doe avec une Google Map.
+* **Page Mentions Légales** : Informations légales présentées via un accordéon Bootstrap, non indexée par les moteurs de recherche.
+* **Header et Footer** : Présents sur toutes les pages, responsives, avec navigation et liens vers les réseaux sociaux.
+* **Effets Graphiques** : Animations CSS au survol des liens, cartes et boutons, respectant la charte graphique définie (couleurs Bootstrap, police Nunito Sans).
 
-### `npm start`
+## ✨ Technologies Utilisées
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **React.js** : Bibliothèque JavaScript pour la construction de l'interface utilisateur.
+* **HTML5 / CSS3** : Langages de base pour la structure et le style.
+* **Bootstrap 5** : Framework CSS pour le responsive design et les composants UI.
+* **React-Bootstrap** : Intégration des composants Bootstrap pour React.
+* **React Router DOM** : Pour la navigation entre les différentes pages du site.
+* **API GitHub** : Utilisation de l'API REST pour récupérer dynamiquement les informations du profil.
+* **Font Awesome / Bootstrap Icons** : Pour les icônes.
+* **Git / GitHub** : Pour le contrôle de version et l'hébergement du projet.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Prérequis
 
-### `npm test`
+Avant de lancer le projet, assurez-vous d'avoir les éléments suivants installés sur votre machine :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Node.js](https://nodejs.org/) (version LTS recommandée)
+* [npm](https://www.npmjs.com/) (généralement installé avec Node.js) ou [Yarn](https://yarnpkg.com/)
 
-### `npm run build`
+## 🚀 Instructions d'Installation et de Lancement
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Suivez ces étapes pour installer et lancer le projet en local :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  **Clonez le dépôt GitHub :**
+    ```bash
+    git clone [https://github.com/AdrienDevWeb/mon-portefolio-john-doe.git](https://github.com/AdrienDevWeb/mon-portefolio-john-doe.git)
+    ```
+2.  **Naviguez vers le dossier du projet :**
+    ```bash
+    cd mon-portefolio-john-doe
+    ```
+3.  **Installez les dépendances :**
+    ```bash
+    npm install
+    # ou si vous utilisez Yarn
+    # yarn install
+    ```
+4.  **Lancez l'application en mode développement :**
+    ```bash
+    npm start
+    # ou si vous utilisez Yarn
+    # yarn start
+    ```
+    L'application devrait s'ouvrir automatiquement dans votre navigateur par défaut à l'adresse `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 🤝 Contribution
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Si vous souhaitez contribuer à ce projet, veuillez me contacter.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📄 Licence
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Ce projet est sous licence MIT.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
